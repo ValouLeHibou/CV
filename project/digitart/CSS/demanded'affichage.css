@@ -1,0 +1,201 @@
+/* Imports de police (ne fonctionne pas) */
+@font-face{
+	font-family:"TheNextFont";
+	src:url('TheNextFont.ttf');
+}
+
+@font-face{
+	font-family:"BebasNeue Regular";
+	src:url(BebasNeue Regular.ttf);
+}
+
+/* -------------------------------- */
+
+html{
+	height: 100%; /* Pour éviter la limite visible dans le background */
+}
+
+body{
+	background :radial-gradient(circle at center top, black, #333333);
+	margin:auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* BANDEAU */
+
+header{
+	background-color:#ddd;
+	margin:0;
+	padding:5px;
+	width:calc(100% -30px);
+}
+
+header div{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.menu{
+	width:calc(20% - 20px);
+	padding-left: 20px;
+}
+
+.menu img:hover{
+	cursor:pointer;
+}
+
+.logo{
+	width:55%;
+	
+	font-size:1.1em;
+	font-weight: bold;
+	font-family:'TheNextFont', arial, sans-serif;
+}
+
+.logo > a{
+	color:#545454;
+}
+
+/* Pour aligner le texte avec le logo */
+.logo > a > *{
+	vertical-align: middle;
+}
+
+.search{
+	background-color:white;
+	width:calc(10% - 5px);
+	padding-top:3px;
+	padding-right: 5px;
+	text-align:right;
+
+}
+
+.search input{
+	border:none;
+	width:calc(100% - 25px);
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;
+	vertical-align: middle;
+	height: 20px;
+}
+
+#loupe{
+	width:20px;
+	height: 20px;
+	background:url(image/loupe.png);
+}
+
+.reseaux{
+	width:15%;
+	text-align:center;
+}
+
+.reseaux img{
+	padding:5px;
+}
+
+
+/* ------------------- */
+
+/* CONTENU (Formulaire) */
+
+h1{
+	font-family:'BebasNeue Regular', arial, sans-serif;
+	text-transform: uppercase;
+	text-align:center;
+	padding:20px;
+	margin-bottom: 50px;
+}
+
+.main form{
+	width:65%;
+	height: auto;
+	margin:auto;
+	margin-top:70px;
+	padding-bottom:100px;
+	background-color:white;
+	border-radius:3px;
+
+	border: 5px solid #000;
+	-moz-box-shadow: 8px 8px 12px #000; 
+	-webkit-box-shadow: 8px 8px 12px #000; 
+	box-shadow: 8px 8px 12px #000; 
+}
+
+#col1, #col2{
+	width:calc(40% - 40px);
+}
+
+.publier{
+	width:20%;
+}
+
+.main form > div{
+	text-align:center;
+	vertical-align: middle;
+	display:inline-block;
+	padding:10px;
+	margin: auto;
+}
+
+.main form > div > input{
+	width:80%;
+}
+
+.main form > div > img{
+ vertical-align: middle;
+}
+
+.main form input{
+	height: 10px;
+	border:none;
+	border-bottom:1px solid #BBA9A9;
+	padding:20px;
+	padding-left:0px;
+}
+
+
+.main .publier > input{
+	background-color:#d05715;
+	color:white;
+	font-weight: bold;
+	width:70%;
+	height: auto;
+	text-transform:uppercase;
+	border:none;
+	padding-left:20px;
+	border-radius:20px;
+}
+
+
+#nom_oeuvre{
+	margin-right:20px; /* Pour compenser les images des autres champs (décalage) */
+}
+
+#parution{
+	margin-right:20px; /* idem */
+}
+
+#oeuvre{
+	border:none;
+	margin-right:20px; /* idem */
+}
+
+.publier > input:hover{
+	cursor:pointer;
+}
+
+/* Affichage des span dans chaque colonne */
+#col1 > span, #col2 > span{
+	visibility: hidden; /* Masque les deux span */
+	font-size:0.8em;
+	color:#BBA9A9;
+}
+
+#col2:hover .fichier{
+	visibility:visible; /* Affiche le span de la colonne 2 au survol */
+}

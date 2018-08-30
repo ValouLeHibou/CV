@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body {
+	margin:0;
+	padding: 0;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Kandinsky_-_Jaune_Rouge_Bleu.jpg/1280px-Kandinsky_-_Jaune_Rouge_Bleu.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 95%;
+	height: 900px;
+	background-color: rgb(31,31,31);
+}
+.titre img {
+	margin-bottom: 15%;
+	width: 15%;
+}
+.titre p {
+	/**background-color: rgba(1,1,1,0.7);**/
+	width: 100%;
+	font-family: 'Roboto';
+	/**color: rgba(255, 247, 141, 0.83);**/
+	color: white;
+	text-align: center;
+	font-size: 4.5em;
+}
+
+.phrase {
+	font-weight: bold;
+	margin-top: 21%;
+	margin-bottom: 21%
+}
+.body{
+	text-align: justify;
+	margin: auto;
+	width: 100%;
+	background-color: white;
+	font-family: 'Roboto';
+}
+.body p{
+	margin:auto;
+	width: 80%;
+	padding: 3%;
+}
+h1 {
+	padding-top: 5%;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 3em;
+}
+.tableau {
+	width: 80%;
+	text-align: center;
+	font-family: 'Roboto';
+}
+
+.lienartistes{
+	margin-left: 80%;
+}
+.lienartistes, .lienevents{
+	color: rgb(54,90,144);
+	font-family: 'Roboto';
+	text-decoration:none;
+} 
+.lienevents{
+	text-align: center;
+}
+.actualite{
+	background-color: rgb(31,31,31);
+}
+.actualite img {
+	width: 450px;
+	height: 330px;
+}
+.actualite div {
+	display: inline-block;
+	color: white;
+	font-family: 'Roboto';
+	margin: 0.9%;
+}
+h2 {
+	padding:2%;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.5em;
+}
+.un,.deux {
+width: 43%;
+
+}
+.un {
+	padding-left: 10.3%;
+}
+.texte {
+	width: 70%;
+	text-align: center;
+	vertical-align: middle;
+	height: 80px;
+	padding-top: 2%;
+}
+#news{
+	color: white;
+	font-family: 'Roboto';
+	text-align: center;
+	padding-bottom: 1%;
+}
+form{
+	text-align: center;
+}
+#mail{
+	background-color: rgb(142,142,142);
+	color: white;
+	width: 440px;
+	height: 35px;
+	margin-right: 3%;
+}
+#bouton{
+background-color: rgb(142,142,142);
+	color: white;
+	border: 0;
+	width: 170px;
+	height: 40px;
+}
+.lien, .lien a {
+	color: rgb(54,90,144);
+	text-decoration:none;
+	text-align: center;
+	margin-top: 3%;
+	padding-bottom: 2%;
+	font-family: 'Roboto';
+}

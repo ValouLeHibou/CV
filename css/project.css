@@ -1,0 +1,49 @@
+body {
+	background: radial-gradient(ellipse at bottom, #333 30%, #000000 100%);
+	min-height: 100vh;
+}
+
+#return {
+	justify-content: center;
+  background-color: #0DA4D2;
+  color: white;
+  padding: 15px;
+  font-size: 1.6em;
+  transition: 0.6s;
+	width: 25%;
+}
+
+#return:hover {
+  background-color: white;
+  color: #0DA4D2;
+  transition: 0.6s;
+}
+
+h1, h2 { margin: 30px; }
+
+
+fieldset {
+	border: hidden;
+	border-top: 3px solid #0DA4D2;
+	background-color: rgba(0,0,0, 0.3);
+}
+
+fieldset a {
+	font-size: 1.5em;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#athotz {
+	justify-content: center;
+}
+
+.preview { width: 100%; }
+
+.projet .descr  {
+	font-size: 1.3em;
+	text-align: justify;
+}	

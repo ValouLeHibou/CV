@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.test {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 4em;
+}
+
+.corps {
+	background-color: white;
+}
+
+table {
+	padding-top: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+td {
+	padding-top: 20px;
+}
+
+.maj {
+	font-size: 200%;
+	padding-bottom: 50px;
+}
+
+.text {
+	padding-left: 50px;
+	font-size: 150%;
+}
+
+div, p {
+	font-family: 'Roboto';
+}

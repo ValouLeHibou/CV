@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" href="ajax.css">
+	</head>
+
+	<body>
+		<div id="api">
+			<h2>Ville :</h2>
+			<form method="post" onsubmit="return false">
+			<p>
+				<input type="text" required placeholder="Ville" id="input"/>
+				<button id="button">Valider</button>
+			</p>
+			</form>
+
+			<div>
+				<span>Météo :</span>
+				<span id="meteo"> </span><br>
+			</div>
+
+			<div>
+				<span>Température :</span>
+				<span id="temp">0</span> °C<br>
+			</div>
+
+			<div>
+				<span>Humidité :</span>
+				<span id="humidity">0</span> %<br>
+			</div>
+		</div>
+
+		<script src="ajax.js"></script>
+	</body>
+</html>

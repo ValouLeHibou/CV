@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+	font-family:				Roboto;
+}
+
+.defile{
+	background-color:		#eee;
+	text-align: 			left;
+	margin:					1%;
+	padding:				15px;
+	height:					200px;
+	border-radius:			10px;
+}
+
+.defile:hover{
+	background-color:		#5B5B5B
+}

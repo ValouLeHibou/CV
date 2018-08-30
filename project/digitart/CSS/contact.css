@@ -1,0 +1,163 @@
+/*--------------------------------------------------*/
+/*--------------- STYLE DE LA PAGE -----------------*/
+/*--------------------------------------------------*/
+
+a{
+	text-decoration: 		none;
+}
+body{
+	background-color:		#333;
+}
+/*--------------------------------------------------*/
+/*--------------- CONTENU (Formulaire) -------------*/
+/*--------------------------------------------------*/
+
+
+/*--------------------- Titre ----------------------*/
+h1{
+	text-transform: 		uppercase;
+	text-align:				center;
+	padding:				20px;
+	margin-bottom: 			50px;
+}
+/*--------------- STYLE du Formulaire --------------*/
+
+.main form{
+	width:					65%;
+	height: 				auto;
+	margin:					auto;
+	margin-top:				70px;
+	padding-bottom:			100px;
+	background-color:		white;
+	border-radius:			5px;
+	border: 				3px solid #000;
+	margin-bottom:			20px;
+}
+
+/*-------------- Separation 2 colonnes -------------*/
+
+#col1, #col2{
+	width:					calc(40% - 40px);
+}
+
+/*-------------- Taille Bouton Publier -------------*/
+
+.publier{
+	width:					20%;
+}
+
+/*---------- Styles div col1 col2 et publier -------*/
+
+
+.main div{
+	text-align:				center;
+	vertical-align: 		middle;
+	display:				inline-block;
+	padding:				10px;
+}
+
+/*------------- Taille des Input (largeur) ----------*/
+
+.main input{
+	width:					80%;
+}
+
+/*------- Images centrés par rapport aux textes -----*/
+
+.main img{
+ vertical-align: 			middle;
+}
+
+/*------------------- STYLE Parties ------------------*/
+
+.main form input{
+	height: 				10px;
+	border:					none;
+	border-bottom:			1px solid #BBA9A9;
+	padding:				20px;
+	padding-left:			0px;
+}
+
+.main .publier > input{
+	background-color:		#d05715;
+	color:					white;
+	font-weight: 			bold;
+	width:					70%;
+	height: 				auto;
+	text-transform:			uppercase;
+	border:					none;
+	padding-left:			20px;
+	border-radius:			20px;
+}
+
+.main select{
+	width:					80%;
+	padding:				10px;
+	border:					none;
+	border-bottom:			1px solid #BBA9A9;
+	color:					#bec3c7;
+	
+}
+/*----------------- Taille Text Area ---------------*/
+
+.main textarea{
+	margin: 				0px;
+	width: 					375px;
+	height: 				225px;
+}
+
+.publier > input:hover{
+	cursor:					pointer;
+}
+
+textarea{
+	padding:				5px;
+}
+
+.tel {
+	color: rgb(225,225,225);
+}
+
+
+
+.localisation, .telephone, .mail {
+	color: white;
+
+}
+.localisation{
+margin-bottom: 3%;
+}
+
+.telephone{
+margin-bottom: 3%;
+margin-left: 10%;
+}
+
+
+.main {
+	padding-top: 10%;
+}
+i{
+	vertical-align: middle;
+}
+
+h2{
+	text-align: center;
+	color: white;
+	font-size: 2.3em;
+	padding-bottom: 4%
+}
+
+iframe {
+	margin-left: 30%;
+	border-radius: 30px;
+	margin-bottom: 1%;
+}
+
+.localisationdiv {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}

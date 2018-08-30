@@ -1,0 +1,138 @@
+@font-face {
+	font-family: japan;
+	src: url('yozakura.otf');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	min-height: 10vh;
+	align-items: center;
+	justify-content: center;
+	background-color: #f6f6f6;
+}
+
+h1 {
+	font-family: japan;
+	font-size: 500%;
+	color: #353334;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #DE1F24;
+	justify-content: space-around;
+	font-family: japan;
+	font-size: 300%;
+}
+
+.nav {
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	transition: 0.25s;
+}
+
+.nav:hover {
+	background-color: white;
+	color: black;
+	transition: 0.25s;
+}
+
+.accueil {
+	background-color: white;
+}
+
+main {
+	background: url('img/background.png');
+	background-size: 100%;
+	background-attachment: fixed;
+	flex: 1;
+	display: flex;
+	
+}
+
+.contenu {
+	display: flex;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	flex-direction: column;
+}
+
+.element {
+	display: flex;
+	width: 100%;
+}
+
+.vide {
+	display: flex;
+	width: 30%;
+}
+
+footer {
+	display: flex;
+	background-color: #333333;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	justify-content: space-around;
+}
+
+.icon {
+	width: 30px;
+	transition: 0.3s;
+}
+
+.icon:hover {
+	width: 40px;
+	transition: 0.3s;
+}
+
+.footer {
+	text-decoration: none;
+	color: white;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+}
+
+.texte {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 150%;
+}
+
+.error {
+	font-family: japan;
+	font-size: 250%;
+}
+
+.gosuto {
+	margin: auto;
+	width: 300px;
+	height: 300px;
+}
+
+.reservez {
+	margin: auto;
+	width: 300px;
+	height: 100px;
+}
+
+ul {
+	text-align: left;
+}

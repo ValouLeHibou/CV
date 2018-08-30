@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+body{
+	margin:0;
+	padding: 0;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Kandinsky_-_Jaune_Rouge_Bleu.jpg/1280px-Kandinsky_-_Jaune_Rouge_Bleu.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 80%;
+	background-color: rgb(31,31,31);
+	font-family: 'Roboto';
+	color: white;
+	margin-bottom: 2%;
+
+}
+
+h1 {
+	font-family: 'Roboto';
+	font-size: 3em;
+	text-align: center;
+	background-color: white;
+	padding: 5%;
+	margin-top: 40%;
+	margin-bottom: 5%;
+	color: black;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+	font-size: 1.5em;
+	padding: 2%;
+}
+
+.mentions {
+	width: 80%;
+	margin: auto;
+}

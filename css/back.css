@@ -1,0 +1,77 @@
+h1 { font-size: 4em; }
+
+h2 { font-size: 3em; }
+
+h3 { font-size: 2em; }
+
+h1, h2, h3 { margin: 0; padding: 20px; }
+
+hr { margin: 50px; }
+
+/* ############################# LOGIN BACK ################################# */
+
+#back { background: #222; }
+
+#back > form {
+	display: flex;
+	justify-content: center;
+	margin-top: 30vh;
+	font-size: 2em;
+}
+
+fieldset { width: 50% !important; }
+
+.input-field, input{ color: white; }
+
+.btn{ background-color: #0DA4D2; }
+
+/* ############################# DECONNEXION ################################# */
+
+#deconnexion {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #222;
+	min-height: 100vh;
+}
+
+/* ############################# ACCUEIL BACK ################################# */
+
+#accueil {
+	background: #222;
+	color: white;
+	text-align: center;
+}
+
+/* ****************************** MODIF' HEADER ******************************* */
+#accueil > header { background: black; }
+
+#header { margin-top: 50px; }
+
+textarea {
+	background: white;
+	color: black;
+	width: 40vw;
+	min-height: 25vh;
+	border: 2px solid black;
+	border-radius: 2%;
+}
+
+/* **************************** MODIF' EXPERIENCE ******************************* */
+
+#experience > form > div > input {
+	width: 35vw;
+}
+#top_exp { margin-top: 50px; }
+
+#image, #new_image {
+	width: 25vw !important;
+	padding: 10px;
+}
+
+.delete { 
+	color: #0DA4D2;
+	font-weight: bold;
+	margin-left: 20px;
+}
+

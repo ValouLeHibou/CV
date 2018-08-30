@@ -1,0 +1,133 @@
+body {
+    margin:0;
+    padding: 0;
+    background-image: url('../Images/ad.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    height: 900px;
+    background-color: rgb(31,31,31);
+    width: 100%;
+}
+
+.body{
+    text-align: justify center;
+    margin: auto;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-color: white;
+}
+
+.photo {
+    margin-top: 10%;
+    margin-bottom: 30%;
+}
+
+#contenuphoto {
+    margin:0 auto;
+    vertical-align: center;
+    width:80%;
+    height:auto;
+    z-index: 8;
+}
+
+.photo1 {
+    background:url("../Images/Ad1.jpg");
+    background-size: contain;
+
+}
+
+.photo2 {
+    background:url("../Images/Ad2.jpg");
+    background-size: contain;
+
+}
+.photo3 {
+    background:url("../Images/Ad3.jpg");
+    background-size: contain;
+
+}
+.photo4 {
+    background:url("../Images/Ad4.jpg");
+    background-size: contain;
+
+}
+.photo5 {
+    background:url("../Images/Ad5.jpg");
+    background-size: contain;
+
+}
+.photo6 {
+    background:url("../Images/Ad6.jpg");
+    background-size: contain;
+
+}
+
+		
+.photo_item {
+    position: relative;
+    overflow: hidden;
+    display: block;
+		width: 33%;
+		height:250px;
+		margin: 0 auto; 
+		float: left;
+}
+
+.photo_item .photo_item_hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    -webkit-transform: translate(-100%);
+    transform: translate(-100%);
+    opacity: 0;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.photo_item .photo_item_hover .item_info {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.photo_item .photo_item_hover .item_info span {
+    display: block;
+    color: white;
+    font-size: 18px;
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+    -webkit-transition: all .2s ease-in-out .2s;
+    transition: all .2s ease-in-out .2s;
+    opacity: 0;
+}
+
+
+.photo_item:hover .photo_item_hover {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+.phto_item:hover .item_info{
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+div .item_info{
+    color: white;
+}
+
+

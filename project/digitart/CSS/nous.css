@@ -1,0 +1,35 @@
+body { background-color: rgb(31,31,31);
+	   font-family: 'Roboto', sans-serif;
+	   margin-top: 150px;
+	   color: white;
+	   padding-top: 18%;}
+
+.img {
+	width: 100px;
+	border-radius: 50px;
+}
+
+.cdp { text-align: center; }
+
+td { text-align: center;
+	padding-bottom: 2%;
+	width: 14.8%; }
+
+th { font-size: 1.5em; 
+	width: 14.8%;}
+
+.role { font-size: 1.8em; }
+
+h1 { text-align: center;
+	 font-size: 3em;
+	 background-color: white;
+	 padding-bottom: 3%;
+	 color: black;
+	 margin-bottom: 5%;
+	 margin-top: 43%;
+	 padding-top: 3%;
+	  }
+
+table { text-align: center; 
+		margin-left: 15%;
+		margin-right: 15%;}

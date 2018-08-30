@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+* { vertical-align: top; box-sizing: border-box;}
+html {}
+body { margin: 0px; font-family: "roboto";}
+h1 { margin: 0px;}
+
+
+#bg_section { height: 300px; background-image: url("img/bg.jpg"); 
+background-size: cover;
+}
+	#bg_section > div { display: block;
+	 position: relative; 
+	 width: 100%; 
+	 height: 100%; 
+	 background-color: rgba(0, 0, 0, 0.7);
+	}
+		#bg_section > div > p { position: absolute;
+		 top: 50%; 
+		 left: 50%; 
+		 transform: translate(-50%, -50%); 
+		 line-height: 50px;
+		  margin: 0px; 
+		  color: #fff; 
+		  text-align: center;
+		   font-size: 28px;
+		}
+
+#main { display: block;
+ width: 800px; 
+ margin: auto;
+}
+	#main > article { display: block; 
+		width: 100%; 
+		height: 200px; 
+		margin-top: 20px; 
+		font-size: 0px;
+	}
+		#main > article > .img_container { display: inline-block; 
+			vertical-align: middle; 
+			width: 25%; 
+			height: 200px; 
+			background-size: 100% auto; 
+			background-position: 50% 50%;
+			 background-repeat: no-repeat;
+			}
+		#main > article > .img_container.vogue { background-image: url("Images/vogue.png");}
+		#main > article > .img_container.graffiti_art { background-image: url("Images/graffiti_art.png");}
+		#main > article > .img_container.prestige { background-image: url("Images/prestige.png");}
+		#main > article > .img_container.beaux_arts { background-image: url("Images/beaux_arts.jpg");}
+		#main > article > .img_container.officiel_art { background-image: url("Images/officiel_art.jpg");}
+		#main > article > .content { display: inline-block; vertical-align: middle; width: 75%; padding-left: 20px;}
+			#main > article > .content > p { font-size: 16px; font-style: italic;}
+			#main > article > .content > .stars {}
+				#main > article > .content > .stars > .star { display: inline-block;
+				 width: 20px;
+				  height: 20px; 
+				  margin-right: 10px; 
+				  background-image: url("Images/img/star.svg");
+				   background-size: 20px 20px;
+				}

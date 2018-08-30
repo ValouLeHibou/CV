@@ -1,0 +1,281 @@
+/* *********************** LOADING ANIMATION **************************** */
+
+.loader{
+	z-index:9000;
+	position:fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align:center;
+	align-items: center;
+	height: 100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	background-color: black;
+}
+
+.wrapper {
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.wrapper > p {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.perp {
+	border-radius: 200px;
+	-webkit-animation: rotating 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-moz-animation: rotating 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-o-animation: rotating 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-ms-transition: rotating 1s cubic-bezier(0, 0, 0, 0) infinite;
+	animation: rotating 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-webkit-transition: all 400ms ease-out;
+	-moz-transition: all 400ms ease-out;
+	-o-transition: all 400ms ease-out;
+	transition: all 400ms ease-out;
+}
+
+#p1, #p2, #p3 {
+	border: 2px outset;
+	border-top-color: #0DA4D2;
+	border-left-color: #0DA4D2;
+	border-right-color: black;
+	border-bottom-color: black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#p1 {
+	margin-top: -162px;
+	width: 250px;
+	height: 250px;
+	-webkit-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-moz-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-o-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-ms-transition: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+}
+
+#p2 {
+	margin-top: -222px;
+	width: 190px;
+	height: 190px;
+	-webkit-animation: rotatingback 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-moz-animation: rotatingback 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-o-animation: rotatingback 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-ms-transition: rotatingback 1s cubic-bezier(0, 0, 0, 0) infinite;
+	animation: rotatingback 1s cubic-bezier(0, 0, 0, 0) infinite;
+}
+
+#p3 {
+	margin-top: -162px;
+	width: 130px;
+	height: 130px;
+	-webkit-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-moz-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-o-animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	-ms-transition: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+	animation: rotating2 1s cubic-bezier(0, 0, 0, 0) infinite;
+}
+
+@-webkit-keyframes rotating {
+	from { -webkit-transform: rotateY(0deg); }
+	to { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes rotatingback {
+	from { -webkit-transform: rotate(100deg); }
+	to { -webkit-transform: rotate(-260deg);	}
+}
+
+@-webkit-keyframes rotating2 {
+	from { -webkit-transform: rotate(110deg); }
+	to { -webkit-transform: rotate(470deg); }
+}
+
+@-moz-keyframes rotating2 {
+	from { -moz-transform: rotate(110deg); }
+	to { -moz-transform: rotate(470deg); }
+}
+
+@-o-keyframes rotating2 {
+	from { -o-transform: rotate(110deg); }
+	to { -o-transform: rotate(470deg); }
+}
+
+@-ms-keyframes rotating2 {
+	from { -ms-transform: rotate(110deg); }
+	to { -ms-transform: rotate(470deg); }
+}
+
+@keyframes rotating2 {
+	from { transform: rotate(110deg); }
+	to { transform: rotate(470deg); }
+}
+
+/* *********************** FIN **************************** */
+
+/* *********************** FLECHE SCROLL **************************** */
+
+[data-ca3_icon]::before {
+    font-weight: normal;
+    content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+  cursor:pointer;
+	height: 60px;
+	width: 80px;
+	position: absolute;
+	left: 50%;
+	bottom: 2vh;
+	margin: 0px 0 0 -40px;
+	color: #FFF;
+	text-align: center;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.4);
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0%   { -webkit-transform:translate(0,-3vh); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,1vh); opacity: 0; }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0%   { -moz-transform:translate(0,-3vh); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,1vh); opacity: 0; }
+}
+@keyframes ca3_fade_move_down {
+  0%   { transform:translate(0,-3vh); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,1vh); opacity: 0; }
+}
+
+/* ***************** FIN FLECHE SCROLL********************* */
+
+
+/* ***************** HOVER UNDERLINE ********************** */
+
+#bar > li > a:after {
+	content:'';
+	width:0px;
+	height:0.3vh;
+	display:block;
+	background:white;
+	transition: all .3s ease-in;
+}
+#bar > li > a:hover:after { width:100%; }
+
+/* ****************** FIN UNDERLINE ********************** */
+
+
+/* ******************* MENU BURGER *********************** */
+
+aside {
+	position:fixed;
+	top:0;
+	left:-200px;
+	width:200px;
+	height: 100vh;
+	background-color: #222;
+	z-index:999;
+}
+
+aside ul {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+	width:100%;
+	height: 100%;
+}
+
+aside ul li { text-align: center; }
+
+aside ul li a {
+	color:white;
+	text-decoration: none;
+}
+
+.opacity {
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	height: 100vh;
+	z-index: 900;
+	background-color: rgba(0,0,0,0.3);
+}
+/* 	******************** FIN BURGER ********************* */
+
+
+/* 	******************** PAGINATION ********************* */
+
+.pagination {
+	overflow: hidden;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	right:20px;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size:1.4em;
+	z-index: 700;
+}
+.pagination a {
+	position:relative;
+}
+.pagination a.active:after {
+	color: #0DA4D2;
+	box-shadow:inset 0 0 0 5px;
+}
+.pagination a .hover-text {
+	color:white;
+	position:absolute;
+	right:15px;
+	top:-17px;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease;
+	transition: opacity 0.5s ease;
+	padding-right: 15px;
+}
+.pagination a:hover .hover-text {
+	opacity: 1;
+}
+.pagination a:after {
+	color:white;
+	-webkit-transition:box-shadow 0.5s ease;
+	transition:box-shadow 0.5s ease;
+	width:11px;
+	height:11px;
+	display: block;
+	border:2px solid;
+	border-radius:50%;
+	content:'';
+	position: absolute;
+	margin:auto;
+	top:0;
+	right:4px;
+	bottom:0;
+}
+
+/* **************** FIN PAGINATION *************** */
